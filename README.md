@@ -1,7 +1,8 @@
 # README #
 
 The goal of this project was to test building a simple autonomous drone, however my AR Drone broke before I got far enough...
-Be careful if you run this with the AR Drone because the movement tracking has not been debugged. Make sure to try outside in a wide open space.
+
+Be careful if you run this with the AR Drone because the movement tracking has not been debugged - make sure to try outside in a wide open space.
 
 
 ### Overview ###
@@ -21,7 +22,7 @@ Be careful if you run this with the AR Drone because the movement tracking has n
 
 ### Running ###
 
-    $ # Run face tracker using local web camera
+    $ # Run face tracker using local webcam
     $ python facetracker.py --local
 
     $ # Run face tracker using AR Drone connected via WiFi
